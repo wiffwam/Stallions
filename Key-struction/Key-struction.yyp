@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "4006d1a9-09f7-43f1-b0fa-973bafdcfec3",
+            "Value": {
+                "id": "d6181747-5756-458f-bc7c-e3382e90ec05",
+                "resourcePath": "sprites\\spr_tankstationary\\spr_tankstationary.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45d9f8a3-bffd-4f6b-9282-04321b6308c3",
             "Value": {
                 "id": "e9cc7a5d-e320-4b07-8260-ee7b87e2e4be",

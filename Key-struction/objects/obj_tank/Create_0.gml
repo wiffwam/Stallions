@@ -3,3 +3,4 @@
 direction = 180;
 move = true;
 count = 0;
+alarm[0] = 230;

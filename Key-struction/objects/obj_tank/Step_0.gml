@@ -7,6 +7,12 @@ if(move){
 if(distance_to_point(800,550) <5){
 	move = false;
 	speed = 0;
+	sprite_index = spr_tankturret;
+	if(alarm[0]==-1){
+		image_speed = 50;
+		sprite_index = spr_tankstationary;
+		
+	}
 }
 
 
