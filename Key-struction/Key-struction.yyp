@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "7e6f5c8f-cf46-43cd-96fb-5dc817bd103b",
+            "Value": {
+                "id": "fd08a051-1897-4c17-a1a6-d83641c3b9f2",
+                "resourcePath": "sprites\\spr_exit_button1\\spr_exit_button1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ff73362-5c94-445a-90fb-9edd9886b6b0",
             "Value": {
                 "id": "da2ddde4-16d2-4c51-a8a2-178c2b5011aa",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "bf80046a-b30f-4042-8852-4260c2f610b5",
+            "Value": {
+                "id": "2c3cc7c4-23e7-4f41-9a1c-05aa5996eae2",
+                "resourcePath": "sprites\\spr_start_button_selected\\spr_start_button_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c5e3befe-dc8f-40e5-a042-ae05029c01dc",
             "Value": {
                 "id": "17d8ff6b-63fb-40fe-be90-bb7436f6522b",
@@ -355,6 +371,14 @@
             "Value": {
                 "id": "ac5f3a3d-38b8-414f-b87e-9407c99aa12d",
                 "resourcePath": "sprites\\spr_credits_button\\spr_credits_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7e477be-7319-4f34-b9bf-969e0333ca6d",
+            "Value": {
+                "id": "3b690b3c-467a-4edb-8ca4-a291ecdd1b74",
+                "resourcePath": "sprites\\spr_story_button1\\spr_story_button1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -468,6 +492,14 @@
                 "id": "c835868c-5438-44d7-a482-54d66f045ec5",
                 "resourcePath": "views\\fb469de7-0367-42b1-a4c4-25cc862ecce3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc4be880-c5f4-47ac-bf34-f6903e9632f0",
+            "Value": {
+                "id": "a417b3e0-608b-4133-897f-5dee5d0ae392",
+                "resourcePath": "sprites\\spr_credits_button1\\spr_credits_button1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
