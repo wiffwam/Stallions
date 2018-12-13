@@ -146,7 +146,7 @@
             "Key": "3b9ee643-6034-4ce3-b9e3-cce7b208868a",
             "Value": {
                 "id": "485c9447-4884-42c0-8713-8a0d1dd0a912",
-                "resourcePath": "sprites\\spr_tank\\spr_tank.yy",
+                "resourcePath": "sprites\\spr_tankmoving\\spr_tankmoving.yy",
                 "resourceType": "GMSprite"
             }
         },
