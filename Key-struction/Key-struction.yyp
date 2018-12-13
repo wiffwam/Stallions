@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "035d5138-12cc-404d-bcab-df8ad5c0daee",
+            "Value": {
+                "id": "aac92182-06ed-4f74-96c4-d7a2f9d6234b",
+                "resourcePath": "sprites\\spr_start_button1\\spr_start_button1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03c94272-fdd1-4340-9033-6b49a52a5d62",
             "Value": {
                 "id": "940ee2d6-5ec8-413c-98ac-41d74c508262",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "46976f1c-416b-4720-a53e-d785a1db83cf",
+            "Value": {
+                "id": "1ff776d4-1792-4c9c-acfd-14c73f5d8c50",
+                "resourcePath": "sprites\\spr_credits_button1\\spr_credits_button1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b8d3afb-ca08-4ea6-b76a-4851ba25e3a3",
             "Value": {
                 "id": "8ac22f6a-cb20-424e-8795-13dcb4956aae",
@@ -239,14 +255,6 @@
             }
         },
         {
-            "Key": "7e6f5c8f-cf46-43cd-96fb-5dc817bd103b",
-            "Value": {
-                "id": "fd08a051-1897-4c17-a1a6-d83641c3b9f2",
-                "resourcePath": "sprites\\spr_exit_button1\\spr_exit_button1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7ff73362-5c94-445a-90fb-9edd9886b6b0",
             "Value": {
                 "id": "da2ddde4-16d2-4c51-a8a2-178c2b5011aa",
@@ -287,11 +295,27 @@
             }
         },
         {
+            "Key": "a030b1bf-1990-46cf-8545-52191e6cd8e5",
+            "Value": {
+                "id": "56aa5173-afa9-4588-af50-81e52acc9bc7",
+                "resourcePath": "sprites\\spr_story_button1\\spr_story_button1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a155853b-afc5-4a4d-bb61-912df5b8d9ac",
             "Value": {
                 "id": "9404193e-0022-4158-bc16-05a34fb21c7f",
                 "resourcePath": "fonts\\fnt_dictfont\\fnt_dictfont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a75ae837-1816-41d0-9f49-1f563c20ce53",
+            "Value": {
+                "id": "017d5199-28da-4036-b442-880e1ab10e61",
+                "resourcePath": "sprites\\spr_exit_button1\\spr_exit_button1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -335,14 +359,6 @@
             }
         },
         {
-            "Key": "bf80046a-b30f-4042-8852-4260c2f610b5",
-            "Value": {
-                "id": "2c3cc7c4-23e7-4f41-9a1c-05aa5996eae2",
-                "resourcePath": "sprites\\spr_start_button_selected\\spr_start_button_selected.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c5e3befe-dc8f-40e5-a042-ae05029c01dc",
             "Value": {
                 "id": "17d8ff6b-63fb-40fe-be90-bb7436f6522b",
@@ -379,14 +395,6 @@
             "Value": {
                 "id": "ac5f3a3d-38b8-414f-b87e-9407c99aa12d",
                 "resourcePath": "sprites\\spr_credits_button\\spr_credits_button.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d7e477be-7319-4f34-b9bf-969e0333ca6d",
-            "Value": {
-                "id": "3b690b3c-467a-4edb-8ca4-a291ecdd1b74",
-                "resourcePath": "sprites\\spr_story_button1\\spr_story_button1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -508,14 +516,6 @@
                 "id": "c835868c-5438-44d7-a482-54d66f045ec5",
                 "resourcePath": "views\\fb469de7-0367-42b1-a4c4-25cc862ecce3.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fc4be880-c5f4-47ac-bf34-f6903e9632f0",
-            "Value": {
-                "id": "a417b3e0-608b-4133-897f-5dee5d0ae392",
-                "resourcePath": "sprites\\spr_credits_button1\\spr_credits_button1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
