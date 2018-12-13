@@ -1,0 +1,94 @@
+/// @description Insert description here
+// You can write your code in this editor
+// draw textbox
+draw_sprite(spr_box,0,x,y);
+
+
+
+
+//Load file from c:\users\brad\appdata\local\key_struction
+
+
+
+//show text
+
+
+draw_set_font(fnt_dictfont);
+draw_text_ext(x,y, text[aSizecheck],stringheight,boxWidth);
+
+if(aSizecheck < arraylen-1){
+	draw_set_color(c_teal);
+	draw_text_ext(x,y+20, text[aSizecheck+1],stringheight,boxWidth);
+}
+
+//for(;global.i<1;global.i++)
+//{
+//if(string_length(type_sentence)==1|| string_length(type_sentence)==0){}
+//else{
+    draw_set_color(c_gray);
+	draw_text_ext(x,y,type_sentence,stringheight,boxWidth);
+//}
+//}
+
+var s_width=0;
+
+if(redraw = true){
+	if(correct){
+		while(s_count ==0){	
+		    sentence = sentence+text_char;
+			s_count = 1;
+		}
+		s_width = string_width(sentence);
+		if(s_width == 0 || s_width == 10)
+		{
+			draw_set_color(c_lime);
+			draw_text_ext(x,y,text_char,stringheight,boxWidth);
+		}
+		else{
+			draw_set_color(c_lime);
+			draw_text_ext(x+string_width(sentence)-10,y,text_char,stringheight,boxWidth);
+		}
+//	draw_text_ext(x,y, text_char,stringheight,boxWidth);
+	
+	
+	}
+	
+	else{
+		while(s_count ==0){	
+		    sentence = sentence+text_char;
+			s_count = 1;
+		}
+		s_width = string_width(sentence);
+		if(s_width == 0 || s_width == 10)
+		{
+			draw_set_color(c_red);
+			draw_text_ext(x,y,text_char,stringheight,boxWidth);
+		}
+		else{
+			draw_set_color(c_red);
+			draw_text_ext(x+string_width(sentence)-10,y,text_char,stringheight,boxWidth);
+		}
+	
+	}
+}
+	//if(correct){
+	//draw_set_color(c_green);
+	//draw_text_ext(x,y, text_char,stringheight,boxWidth);
+	
+	
+	//}
+	//else{
+	//	draw_set_color(c_red);
+	//	draw_text_ext(x,y, text_char,stringheight,boxWidth);
+		
+		
+	//}
+	//sentence = sentence + text_char
+	//draw_text_ext(x,y,sentence,stringheight,boxWidth);
+	//show_message(sentence);
+	//redraw = false;
+//}
+//redraw = false;
+//correct = false;
+
+
