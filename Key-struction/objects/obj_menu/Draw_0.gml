@@ -18,7 +18,7 @@ draw_set_color(c_white);
 
 if (mpos == 0)
 {
-	draw_sprite(spr_start_button_selected, 0, x + space, y + ( 0 * space));
+	draw_sprite(spr_start_button1, 0, x + space, y + ( 0 * space));
 }
 if (mpos == 1)
 {
