@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "f3ef32cc-58e6-4541-847e-6c1f094448d3",
+            "Value": {
+                "id": "e1a41007-31f7-4733-9186-b8b16a16ae8b",
+                "resourcePath": "sprites\\spr_tankturret\\spr_tankturret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "d9ec8b8c-e50f-4338-851a-36143da46f0d",
