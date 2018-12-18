@@ -46,6 +46,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 	//		draw_set_font(c_green);
 	//		draw_text_ext(x,y, text_char,stringheight,boxWidth);
 			correct = true;
+			score -=1;
 			
 		}
 		else{
@@ -70,6 +71,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 	//		draw_set_font(c_green);
 	//		draw_text_ext(x,y, text_char,stringheight,boxWidth);
 			correct = true;
+			score-=1;
 			global.bullet = true;
 			
 			
