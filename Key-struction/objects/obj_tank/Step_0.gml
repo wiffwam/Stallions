@@ -18,7 +18,7 @@ if(distance_to_point(600,600) <5){
 
 if(global.bullet == false && keyboard_check_pressed(vk_anykey)){
 
-	var inst = instance_create_layer(x,y,"Instances_2",obj_bullet);
+	var inst = instance_create_layer(x,y,"Instances_3",obj_bullet);
 	inst.direction = 155 ;
 	count = 1;
 
