@@ -10,7 +10,7 @@ show_debug_message(score);
 }
 
 show_debug_message(ori_score);
-if(score ==0){
+if(score <=0){
 	sprite_index = spr_destroyedbuilding;
 }
 else if (ori_score *.33 > score){
