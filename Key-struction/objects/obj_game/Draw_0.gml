@@ -4,3 +4,8 @@ draw_set_font(fnt_keys);
 draw_text(20,40,"HiTs To DeStRoY: "+string(score));
 draw_text(20,100,"c: "+string(global.correctCount));
 draw_text(20,120,"c: "+string(health));
+
+
+var pc;
+pc = (health / 10) * 100;
+draw_healthbar(20, 100, 250, 150, pc, c_black, c_red, c_lime, 0, true, true);
