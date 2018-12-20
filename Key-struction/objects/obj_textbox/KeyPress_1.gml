@@ -52,6 +52,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 		}
 		else{
 		    correct = false;
+			health -=1;
 			
 		}
 		count++;
@@ -80,6 +81,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 		}
 		else{
 		    correct = false;
+			health -=1;
 			global.bullet=false
 			
 		

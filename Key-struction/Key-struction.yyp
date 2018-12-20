@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "9cc493e1-71e6-4fda-b79d-f0ddf2e8c336",
+            "Value": {
+                "id": "a5e09c6d-c4a8-428c-93f0-b7d92bf136c7",
+                "resourcePath": "sounds\\mus_game\\mus_game.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a030b1bf-1990-46cf-8545-52191e6cd8e5",
             "Value": {
                 "id": "56aa5173-afa9-4588-af50-81e52acc9bc7",
@@ -348,6 +356,14 @@
                 "id": "9489760e-81db-4917-aece-a7313d201fc5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "afc0d4f6-2e0a-4814-9d61-b34920eb0806",
+            "Value": {
+                "id": "2423972f-c28f-451f-99c2-011de4024886",
+                "resourcePath": "sprites\\spr_monsterdying\\spr_monsterdying.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -396,6 +412,14 @@
                 "id": "17d8ff6b-63fb-40fe-be90-bb7436f6522b",
                 "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c78e45f4-5313-4207-8dd7-37c57b279a6a",
+            "Value": {
+                "id": "70327a43-8d15-4f4d-8057-673fb0339a3d",
+                "resourcePath": "sprites\\spr_monsterdead\\spr_monsterdead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -479,14 +503,6 @@
             }
         },
         {
-            "Key": "e4ccf7bd-0379-41a9-b1d9-af4af7a59144",
-            "Value": {
-                "id": "f8d50fa8-2dec-470c-8483-130ebbb54e3c",
-                "resourcePath": "sprites\\sprite32\\sprite32.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e5d86738-9401-408c-90d8-bca65110567c",
             "Value": {
                 "id": "dc655986-db5e-4be2-b9ad-27afd6282aee",
@@ -540,6 +556,14 @@
                 "id": "96f1fca3-3423-4578-a28e-2ec8ff663cd1",
                 "resourcePath": "objects\\obj_building\\obj_building.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ef5b83eb-c7e4-471b-86bd-c03a3d9e60ef",
+            "Value": {
+                "id": "920a0f40-521f-48c0-b715-cc1187656bdb",
+                "resourcePath": "sounds\\mus_menu\\mus_menu.yy",
+                "resourceType": "GMSound"
             }
         },
         {

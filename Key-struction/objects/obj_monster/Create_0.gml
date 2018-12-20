@@ -3,3 +3,5 @@
 direction = 0;
 move = true;
 alarm[0] = 349;
+health = 10;
+sprite_index = spr_monsterrunning;
