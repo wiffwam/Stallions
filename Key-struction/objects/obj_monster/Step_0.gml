@@ -1,6 +1,6 @@
 
 
-if(sprite_index == spr_monsterrunning || sprite_index == spr_monstertransitiontoidle || sprite_index == spr_monster_attack){
+if(sprite_index == spr_monsterrunning || sprite_index = spr_monsterdead || sprite_index = spr_monsterdying || sprite_index == spr_monster_hurt || sprite_index == spr_monstertransitiontoidle || sprite_index == spr_monster_attack){
 if(move){
 	move_towards_point(400,600,1);
 }
@@ -24,3 +24,8 @@ if(sprite_index == spr_monster_attack && image_index == 6){
 	scr_normal();
 	global.correctCount = 0;
 }
+
+if(sprite_index == spr_monster_hurt && image_index == 1){
+	scr_normal();
+}
+
