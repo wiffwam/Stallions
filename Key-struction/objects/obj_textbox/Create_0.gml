@@ -40,5 +40,4 @@ type_sentence = "";
 c=1;
 aSizecheck = 0;
 arraylen = array_length_1d(text);
-correctCount = 0;
 
