@@ -4,9 +4,12 @@ score = 10;
 audio_stop_all();
 audio_play_sound(mus_game,0,true);
 
-//DECLARE GLOBAL VARIABLES
+state = "IN_GAME";
+alpha = 1;
 
+//DECLARE GLOBAL VARIABLES
 global.correctCount = 0;
 global.charCorrectGoal = 5;
 global.time = 500;
+global.shouldGotoGameover = false;
 
