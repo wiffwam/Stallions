@@ -7,3 +7,5 @@ health = 10;
 sprite_index = spr_monsterrunning;
 dcount=0;
 alarm[1]=120;
+
+attacked = false;
