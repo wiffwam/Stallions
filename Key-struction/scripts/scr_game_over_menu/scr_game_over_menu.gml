@@ -11,11 +11,6 @@ switch (GOmpos)
 		room_goto(rm_menu);
 		break;
 	}
-	case 2:
-	{
-		game_end();
-		break;
-	}
 	default: break;
 	
 	
