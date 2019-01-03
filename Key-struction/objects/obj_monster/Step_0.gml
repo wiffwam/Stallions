@@ -25,12 +25,14 @@ if( global.correctCount >= global.charCorrectGoal && health !=0){
 	if (image_index > 8){
 		attacked = true;
 	}
-}
+
 
 if (attacked == true){
 	scr_normal();
 	global.correctCount = 0;
 	attacked = false;
+}
+
 }
 
 if(sprite_index == spr_monster_hurt && image_index == 1 && health !=0){

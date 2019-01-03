@@ -71,24 +71,6 @@ if(redraw = true){
 	
 	}
 }
-	//if(correct){
-	//draw_set_color(c_green);
-	//draw_text_ext(x,y, text_char,stringheight,boxWidth);
-	
-	
-	//}
-	//else{
-	//	draw_set_color(c_red);
-	//	draw_text_ext(x,y, text_char,stringheight,boxWidth);
-		
-		
-	//}
-	//sentence = sentence + text_char
-	//draw_text_ext(x,y,sentence,stringheight,boxWidth);
-	//show_message(sentence);
-	//redraw = false;
-//}
-//redraw = false;
-//correct = false;
+
 
 

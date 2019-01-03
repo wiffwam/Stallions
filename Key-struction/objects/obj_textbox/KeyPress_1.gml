@@ -22,9 +22,6 @@ if(c > text_lng){
 }
 
 else{
-	
-	
-
 
 text_char = string_char_at(text[aSizecheck],count);
 if(keyboard_check(vk_shift)){
