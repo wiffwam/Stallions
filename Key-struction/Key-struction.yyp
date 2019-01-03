@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "7b8dfacd-5f81-4a2f-96ac-848e5b4ed319",
+            "Value": {
+                "id": "5714229b-c1fb-4a63-93ac-3e25ee129bc5",
+                "resourcePath": "objects\\obj_any_key_to_cont\\obj_any_key_to_cont.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e4ffb27-c998-4cb3-aa13-a023667f6317",
             "Value": {
                 "id": "10db43ec-2fc7-42df-9ee5-1d294c361f3a",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "abbe320d-c70b-480e-826d-295a4aaf1217",
+            "Value": {
+                "id": "b215653a-1e62-40d7-8f04-513718e604ff",
+                "resourcePath": "sprites\\spr_press_any\\spr_press_any.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "afc0d4f6-2e0a-4814-9d61-b34920eb0806",
             "Value": {
                 "id": "2423972f-c28f-451f-99c2-011de4024886",
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "b2644321-573b-40bb-84ff-061a29f252cb",
+            "Value": {
+                "id": "d666da1d-0dd6-4f4a-9ef8-6ec12e11c351",
+                "resourcePath": "sprites\\spr_monster_jumping\\spr_monster_jumping.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8898718-f33a-4c9d-8865-7315f055a9b5",
             "Value": {
                 "id": "d57066e1-eda4-45b6-ab27-78a4637b4255",
@@ -492,6 +516,14 @@
                 "id": "c5424caf-cb69-4471-83c1-5d515114bbaa",
                 "resourcePath": "scripts\\scr_death\\scr_death.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c177a1d2-377d-4994-a385-ff39a9daa2e8",
+            "Value": {
+                "id": "e441c4b7-d671-4c47-9307-71842808f252",
+                "resourcePath": "rooms\\rm_level_complete\\rm_level_complete.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -524,6 +556,14 @@
                 "id": "ca642e31-e8d0-415f-ae24-6a0bb5c9c45d",
                 "resourcePath": "views\\c7db356f-5478-4f0d-87e9-7f0f85db4420.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c83070cf-abfc-44e7-becb-260411514ea5",
+            "Value": {
+                "id": "cab4f874-b9bd-410f-8b4a-a8285b1f3394",
+                "resourcePath": "objects\\obj_monster_happy\\obj_monster_happy.yy",
+                "resourceType": "GMObject"
             }
         },
         {

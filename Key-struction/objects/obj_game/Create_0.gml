@@ -13,3 +13,10 @@ global.charCorrectGoal = 3;
 global.time = 500;
 global.shouldGotoGameover = false;
 
+
+//Level
+global.currentScore = 0;
+global.levelCompleted = false;
+global.level1 = 20; //score to pass
+
+
