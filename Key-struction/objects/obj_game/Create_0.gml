@@ -9,7 +9,7 @@ alpha = 1;
 
 //DECLARE GLOBAL VARIABLES
 global.correctCount = 0;
-global.charCorrectGoal = 5;
+global.charCorrectGoal = 3;
 global.time = 500;
 global.shouldGotoGameover = false;
 

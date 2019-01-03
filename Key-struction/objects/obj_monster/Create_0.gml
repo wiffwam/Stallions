@@ -9,3 +9,4 @@ dcount=0;
 alarm[1]=120;
 
 attacked = false;
+attacking = false;

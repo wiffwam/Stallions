@@ -21,23 +21,26 @@ if(distance_to_point(400,610) <5){
 
 
 if( global.correctCount >= global.charCorrectGoal && health !=0){
+	
 	scr_attack();
+	
 	if (image_index > 8){
 		attacked = true;
+		attacking = true;
 	}
 
 
-if (attacked == true){
+if (attacked == true && attacking == true){
 	scr_normal();
 	global.correctCount = 0;
 	attacked = false;
+	attacking = false;
 }
 
 }
 
-if(sprite_index == spr_monster_hurt && image_index == 1 && health !=0){
-	scr_normal();
-}
+
+
 
 }
 

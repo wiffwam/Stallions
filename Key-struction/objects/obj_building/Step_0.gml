@@ -4,12 +4,12 @@
 if(count ==0){
 ori_score = score;
 count++;
-show_debug_message(count);
-show_debug_message(ori_score);
-show_debug_message(score);
+//show_debug_message(count);
+//show_debug_message(ori_score);
+//show_debug_message(score);
 }
 
-show_debug_message(ori_score);
+//show_debug_message(ori_score);
 if(score <=0){
 	sprite_index = spr_destroyedbuilding;
 }
