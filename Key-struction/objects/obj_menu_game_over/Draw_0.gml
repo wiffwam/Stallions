@@ -12,7 +12,6 @@ draw_set_color(c_white);
 
 	draw_sprite(spr_restart_button, 0, x + space, y + ( 0 * space));
 	draw_sprite(spr_exit_button, 0, x + space, y + ( 1 * space));
-	draw_sprite(spr_exit_button, 0, x + space, y + ( 2 * space));
 //}
 
 if (GOmpos == 0)
@@ -22,10 +21,6 @@ if (GOmpos == 0)
 if (GOmpos == 1)
 {
 	draw_sprite(spr_exit_button1, 0, x + space, y + ( 1 * space));
-}
-if (GOmpos == 2)
-{
-	draw_sprite(spr_exit_button1, 0, x + space, y + ( 2 * space));
 }
 
 draw_sprite(sprite_index, 0 , x + 32, y + GOmpos * space);

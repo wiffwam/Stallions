@@ -3,7 +3,6 @@
 
 GOmenu[0] = "Restart";
 GOmenu[1] = "Exit to Menu";
-GOmenu[2] = "Exit Game";
 
 space = 85;
 GOmpos = 0;
