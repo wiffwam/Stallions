@@ -303,11 +303,27 @@
             }
         },
         {
+            "Key": "57e6c2b7-3ba5-4880-b81c-bf5da9c1a55d",
+            "Value": {
+                "id": "1569523a-6730-4781-843b-6ec10bff71f0",
+                "resourcePath": "objects\\obj_level_passed\\obj_level_passed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58754791-9868-402e-a97b-446e207a4dc1",
             "Value": {
                 "id": "3648a90b-6f31-4f5e-b758-81a7a3d9a183",
                 "resourcePath": "objects\\obj_monster_dying\\obj_monster_dying.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "67831849-ab67-460d-bec2-bca49b57b9e4",
+            "Value": {
+                "id": "716f0ba0-8086-44d9-a2e5-2ddbae306695",
+                "resourcePath": "sprites\\spr_level_complete_bg\\spr_level_complete_bg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -460,6 +476,14 @@
                 "id": "9404193e-0022-4158-bc16-05a34fb21c7f",
                 "resourcePath": "fonts\\fnt_dictfont\\fnt_dictfont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a19da121-2ef8-4a76-8673-7bc7aa419262",
+            "Value": {
+                "id": "6740870a-240e-4548-9381-46abff1aa739",
+                "resourcePath": "sprites\\spr_level_passed\\spr_level_passed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
