@@ -39,9 +39,7 @@ if (attacked == true && attacking == true){
 
 }
 
-if (global.currentScore > global.level1){
-	
-	global.levelCompleted = true;
+if (score <= 0){
 	if (obj_game.alpha > 0) obj_game.state = "FADE_OUT";
 }
 

@@ -45,7 +45,6 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 			correct = true;
 			global.correctCount++;
 			score -=1;
-			global.currentScore++;
 			
 		}
 		else{
@@ -74,7 +73,6 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 			global.correctCount++;
 			score-=1;
 			global.bullet = true;
-			global.currentScore++;
 			
 		}
 		else{

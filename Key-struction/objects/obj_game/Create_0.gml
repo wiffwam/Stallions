@@ -15,8 +15,8 @@ global.shouldGotoGameover = false;
 
 
 //Level
-global.currentScore = 0;
-global.levelCompleted = false;
-global.level1 = 20; //score to pass
+//global.currentScore = 0;
+//global.levelCompleted = false;
+//global.level1 = 20; //score to pass
 
 
