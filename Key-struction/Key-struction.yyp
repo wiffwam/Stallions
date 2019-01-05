@@ -474,7 +474,7 @@
             "Key": "aba0dfa7-d283-4155-b0ad-73d717817064",
             "Value": {
                 "id": "632ee197-7a6c-4092-9c18-c94a5af4633a",
-                "resourcePath": "sounds\\sfx_tankshooting\\sfx_tankshooting.yy",
+                "resourcePath": "sounds\\sfx_tankhooting\\sfx_tankhooting.yy",
                 "resourceType": "GMSound"
             }
         },
