@@ -178,7 +178,7 @@
             "Key": "2f2fd27f-f6a3-44bb-acbe-1be687f24d65",
             "Value": {
                 "id": "9204909b-c4f5-4c43-8fe4-4acb827dd24a",
-                "resourcePath": "sounds\\sfx_buttetexplosion\\sfx_buttetexplosion.yy",
+                "resourcePath": "sounds\\sfx_bulletexplosion\\sfx_bulletexplosion.yy",
                 "resourceType": "GMSound"
             }
         },

@@ -6,7 +6,7 @@ speed = 0;
 //audio_play_sound(sfx_explosion,1,false);
 if(sprite_index != spr_explosion){
 image_index = 0;
-audio_play_sound(sfx_buttetexplosion,1,false);
+audio_play_sound(sfx_bulletexplosion,1,false);
 }
 
 sprite_index=spr_explosion;
