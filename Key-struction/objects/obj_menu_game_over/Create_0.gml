@@ -8,4 +8,5 @@ space = 85;
 GOmpos = 0;
 
 audio_stop_all();
-//audio_play_sound(mus_menu,0,true);
+audio_play_sound(sfx_monsterdying,1,false);
+//audio_play_sound(mus_gameover,2,true);

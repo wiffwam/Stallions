@@ -1,3 +1,4 @@
+
 /// @description Insert description here
 // You can write your code in this editor
 if(move){
@@ -19,7 +20,9 @@ if(distance_to_point(600,600) <5){
 if(global.bullet == false && keyboard_check_pressed(vk_anykey)){
 
 	var inst = instance_create_layer(x,y,"Instances_3",obj_bullet);
+	audio_play_sound(sfx_tankshooting,1,false);
 	inst.direction = 155 ;
 	count = 1;
 
 }
+

@@ -6,6 +6,13 @@ var move = 0;
 move -= max(keyboard_check_pressed(vk_up), keyboard_check_pressed(ord("W")),0);
 move += max(keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")),0);
 
+if(!audio_is_playing(sfx_monsterdying)){
+  if(!audio_is_playing(mus_gameover))
+      audio_play_sound(mus_gameover,1,true);
+}
+
+
+
 if (move != 0)
 {
 	GOmpos += move;

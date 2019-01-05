@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2f2fd27f-f6a3-44bb-acbe-1be687f24d65",
+            "Value": {
+                "id": "9204909b-c4f5-4c43-8fe4-4acb827dd24a",
+                "resourcePath": "sounds\\sfx_buttetexplosion\\sfx_buttetexplosion.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "301681f8-fb3e-468e-acfb-60618e6953a5",
             "Value": {
                 "id": "db48ab0b-0be5-41d7-af7b-5948c331c0ea",
@@ -252,6 +260,14 @@
                 "id": "8ac22f6a-cb20-424e-8795-13dcb4956aae",
                 "resourcePath": "datafiles_yy\\Dictionary.txt.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "4c3edaa7-bd81-4d69-a5f2-4c2d7467d679",
+            "Value": {
+                "id": "b64699fe-238a-4c9f-872f-8723ed7fcf49",
+                "resourcePath": "sounds\\mus_gameover\\mus_gameover.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -452,6 +468,14 @@
                 "id": "9489760e-81db-4917-aece-a7313d201fc5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aba0dfa7-d283-4155-b0ad-73d717817064",
+            "Value": {
+                "id": "632ee197-7a6c-4092-9c18-c94a5af4633a",
+                "resourcePath": "sounds\\sfx_tankshooting\\sfx_tankshooting.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -679,6 +703,14 @@
             }
         },
         {
+            "Key": "ec1e2dd3-3eb5-4fb7-90a8-8fddd877a3a8",
+            "Value": {
+                "id": "2893c698-991e-4940-be84-3381f796ca66",
+                "resourcePath": "sounds\\sfx_monsterdying\\sfx_monsterdying.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ec42a6d2-7f53-4911-a1da-c5de28e8913b",
             "Value": {
                 "id": "810e04b2-701a-44f3-a20b-6dec8a4b34a1",
@@ -772,6 +804,14 @@
                 "id": "c835868c-5438-44d7-a482-54d66f045ec5",
                 "resourcePath": "views\\fb469de7-0367-42b1-a4c4-25cc862ecce3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc3fb119-8479-49e0-8fc4-403894438bfd",
+            "Value": {
+                "id": "a20664e2-37c7-49d1-b72e-972af5948392",
+                "resourcePath": "sounds\\sfx_factorydmg\\sfx_factorydmg.yy",
+                "resourceType": "GMSound"
             }
         },
         {
