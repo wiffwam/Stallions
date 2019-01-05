@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "9df8ee04-7611-4ced-b311-8c5a5a146c67",
+            "Value": {
+                "id": "fe59dfa4-9203-4981-8083-17d7905390b2",
+                "resourcePath": "objects\\obj_tomb\\obj_tomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a030b1bf-1990-46cf-8545-52191e6cd8e5",
             "Value": {
                 "id": "56aa5173-afa9-4588-af50-81e52acc9bc7",
@@ -627,6 +635,14 @@
             "Value": {
                 "id": "40e8ad47-1c59-4a99-8d08-b5468ff3df2b",
                 "resourcePath": "sprites\\spr_monster_attack\\spr_monster_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d530cebe-a059-41d1-9971-3c2ffaa7507b",
+            "Value": {
+                "id": "ac95ad5a-2af2-4602-a281-49c0e6681932",
+                "resourcePath": "sprites\\spr_tomb\\spr_tomb.yy",
                 "resourceType": "GMSprite"
             }
         },
