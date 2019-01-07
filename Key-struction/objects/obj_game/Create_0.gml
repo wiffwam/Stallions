@@ -14,6 +14,7 @@ global.time = 500;
 global.shouldGotoGameover = false;
 
 
+
 //Level
 //global.currentScore = 0;
 //global.levelCompleted = false;

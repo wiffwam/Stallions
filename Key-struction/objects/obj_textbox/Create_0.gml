@@ -32,6 +32,7 @@ count = 1;
 redraw = false;
 correct = true;
 global.bullet =true;
+global.moving = true;
 shift_button = false;
 sentence="";
 s_count=0;

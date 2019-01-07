@@ -4,7 +4,8 @@
 // You can write your code in this editor
 //if(keyboard_check(vk_anykey) ){
 
-
+if(global.moving == false){
+	
 if(c > text_lng){
   if(aSizecheck < arraylen-1)
   {
@@ -22,6 +23,7 @@ if(c > text_lng){
 }
 
 else{
+	
 
 text_char = string_char_at(text[aSizecheck],count);
 if(keyboard_check(vk_shift)){
@@ -31,6 +33,8 @@ shift_button = true;
 else shift_button = false;
 
 
+	
+	
 if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){	
 	if(shift_button == true)
 //	if(keyboard_check(vk_shift) && keyboard_check(ord("T")) ) 
@@ -87,7 +91,9 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 		type_sentence = type_sentence+text_char;
 	}
 }
-}	
+
+}
+	
 keyboard_string = "";
 
-
+}
