@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "664dcf6f-8529-43c3-bb63-4dc9960f90ff",
+            "Value": {
+                "id": "e9ec0e77-d0b2-4f96-85ce-78e1b2cd8bdb",
+                "resourcePath": "objects\\obj_story_text_effect\\obj_story_text_effect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "67831849-ab67-460d-bec2-bca49b57b9e4",
             "Value": {
                 "id": "716f0ba0-8086-44d9-a2e5-2ddbae306695",
