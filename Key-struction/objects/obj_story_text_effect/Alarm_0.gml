@@ -1,4 +1,4 @@
-
+/*
 
 if (index < string_length(sentence)){
 	index++;
@@ -9,4 +9,14 @@ if (index < string_length(sentence)){
 }
  else {
 	alarm[1] = room_speed *2;
+ }*/
+ /*
+typewriter_out += string_char_at(text_to_write, 1);
+ 
+ i+=1;
+ 
+ if ((i-1) != string_length(text_to_write))
+ {
+	 alarm[0] = 2;
  }
+ */
