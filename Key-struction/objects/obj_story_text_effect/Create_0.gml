@@ -1,0 +1,20 @@
+width = 0;
+height_lines = 0;
+padding = 0;
+text_speed = 0;
+text_speed_counter = 0;
+back_color = 0;
+text_color = 0;
+text_width = 0;
+font = 0;
+line_height = 0;
+height = 0;
+lines = 0;
+//-------------------------------------
+reached_end = false;
+current_line = -1;
+current_line_text = "";
+current_line_display_text = "";
+current_line_length = 0;
+current_line_pos = 0;
+first_line = 0;

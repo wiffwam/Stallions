@@ -1,0 +1,1 @@
+if ds_exists(lines,ds_type_list) { ds_list_destroy(lines); }
