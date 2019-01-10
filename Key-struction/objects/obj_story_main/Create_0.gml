@@ -1,6 +1,5 @@
 scr_create_textbox(180,270,700,8,10,1,room_speed,c_navy,c_white,fnt_keys
 ,
 
-"King Biruda (Monster) was living happily with his family and other monsters in Bay of Bengal. But one day evil cast a shadow over the land and Humans emerged with army wanting to build the factory on the river bank. After listening to humans proposal Biruda quickly found out that factory will pollute whole bay of bengal and there will be no fresh water left. Human captures forcefully on bay of Bengal and builds factory."
-
+"Biruda was living happily in the Bay of Bengal until a shadow was casted over the land and Humans emerged wanting to build factories in the land. Biruda quickly found out that the factories would pollute and destroy the Bay of Bengal, his home. As such, Beruda tries to stop this the only way he knows how, BY DESTROYING THE FACTORIES!!!"
 );
