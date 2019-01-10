@@ -1,5 +1,5 @@
-draw_set_color(back_color);
-draw_rectangle(x,y,x+width,y+height,0);
+//draw_set_color(back_color);
+//draw_rectangle(x,y,x+width,y+height,0);
 //-------------------------------------
 draw_set_color(text_color);
 draw_set_font(font);
