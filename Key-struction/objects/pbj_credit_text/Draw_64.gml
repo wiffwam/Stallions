@@ -1,6 +1,7 @@
 draw_set_halign(fa_center);
 draw_set_color(c_white);
 draw_set_font(fnt_keys);
+
 var finished = true;
 for (var i = 0; i <  array_length_1d(text); i++)
 {
@@ -13,7 +14,7 @@ for (var i = 0; i <  array_length_1d(text); i++)
 	var yy = gui_h + (i * 32) - timer;
     if ((yy > 0) && (yy < gui_h))
     {
-        draw_text(0.5 * gui_w, yy, text[i]);
+        draw_text(0.5 * gui_w, yy-200, text[i]);
         finished = false;
     }
 }
