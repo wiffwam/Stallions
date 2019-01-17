@@ -12,7 +12,8 @@ if(distance_to_point(600,600) <5){
 	if(alarm[0]==-1){
 		image_speed = 50;
 		sprite_index = spr_tankstationary;
-		
+		global.moving = false;
+		global.timer = true;
 	}
 }
 

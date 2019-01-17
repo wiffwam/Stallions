@@ -16,7 +16,7 @@ if(distance_to_point(400,610) <5){
 	speed = 0;
 	sprite_index = spr_monstertransitiontoidle;
 	if(alarm[0] == -1)sprite_index = spr_gamemonsteridle;
-	global.moving = false;
+	
 }
 }
 

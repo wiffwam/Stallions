@@ -2,4 +2,5 @@
 // You can write your code in this editor
 
 myTime = global.time;
-showTime = myTime;
+global.showTime = myTime;
+global.timer = false;
