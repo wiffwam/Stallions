@@ -18,7 +18,7 @@ if (move != 0)
 	GOmpos += move;
 	if (GOmpos < 0) GOmpos = array_length_1d(GOmenu) - 1;
 	if (GOmpos > array_length_1d(GOmenu) - 1) GOmpos = 0;
-	
+	audio_play_sound(sfx_tankshooting,1,false);
 }
 
 var push;
