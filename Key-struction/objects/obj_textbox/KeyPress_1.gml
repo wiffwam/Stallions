@@ -49,13 +49,19 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 			correct = true;
 			global.correctCount++;
 			score -=1;
+			global.totalkeyspressed++;
+			global.totalcorrectCount++;
 			
 		}
 		else{
 		    correct = false;
+			global.incorrectCount++;
 			health -=1;
+			global.totalkeyspressed++;
+			
 			
 		}
+		show_debug_message(global.incorrectCount);
 		count++;
 	    c++;
 		type_sentence = type_sentence+text_char;
@@ -75,17 +81,22 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 	//		draw_text_ext(x,y, text_char,stringheight,boxWidth);
 			correct = true;
 			global.correctCount++;
+			global.totalcorrectCount++;
 			score-=1;
 			global.bullet = true;
+			global.totalkeyspressed++;
 			
 		}
 		else{
 		    correct = false;
 			health -=1;
 			global.bullet=false
+			global.totalkeyspressed++;
+			global.incorrectCount++;
 			
 		
 		}
+		
 		count++;
 		c++;
 		type_sentence = type_sentence+text_char;
@@ -93,6 +104,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 }
 
 }
+
 	
 keyboard_string = "";
 
