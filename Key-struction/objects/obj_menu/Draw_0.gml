@@ -12,8 +12,9 @@ draw_set_color(c_white);
 
 	draw_sprite(spr_start_button, 0, x + space, y + ( 0 * space));
 	draw_sprite(spr_story_button, 0, x + space, y + ( 1 * space));
-	draw_sprite(spr_credits_button, 0, x + space, y + ( 2 * space));
-	draw_sprite(spr_exit_button, 0, x + space, y + ( 3 * space));
+	draw_sprite(spr_story_button, 0, x + space, y + ( 2 * space));
+	draw_sprite(spr_credits_button, 0, x + space, y + ( 3 * space));
+	draw_sprite(spr_exit_button, 0, x + space, y + ( 4 * space));
 //}
 
 if (mpos == 0)
@@ -26,11 +27,15 @@ if (mpos == 1)
 }
 if (mpos == 2)
 {
-	draw_sprite(spr_credits_button1, 0, x + space, y + ( 2 * space));
+	draw_sprite(spr_story_button1, 0, x + space, y + ( 2 * space));
 }
 if (mpos == 3)
 {
-	draw_sprite(spr_exit_button1, 0, x + space, y + ( 3 * space));
+	draw_sprite(spr_credits_button1, 0, x + space, y + ( 3 * space));
+}
+if (mpos == 4)
+{
+	draw_sprite(spr_exit_button1, 0, x + space, y + ( 4 * space));
 }
 
 draw_sprite(sprite_index, 0 , x + 32, y + mpos * space);

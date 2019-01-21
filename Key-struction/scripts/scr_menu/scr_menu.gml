@@ -13,10 +13,15 @@ switch (mpos)
 	}
 	case 2:
 	{
-		room_goto(rm_credit);
+		room_goto(rm_instruction); 
 		break;
 	}
 	case 3:
+	{
+		room_goto(rm_credit);
+		break;
+	}
+	case 4:
 	{
 		game_end();
 		break;

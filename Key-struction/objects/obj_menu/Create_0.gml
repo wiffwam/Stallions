@@ -3,10 +3,11 @@
 
 menu[0] = "Start";
 menu[1] = "Story";
-menu[2] = "Credit";
-menu[3] = "Quit";
+menu[2] = "Instruction";
+menu[3] = "Credit";
+menu[4] = "Quit";
 
-space = 85;
+space = 70;
 mpos = 0;
 audio_stop_all();
 audio_play_sound(mus_menu,0,true);
