@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "2f4b7f54-53de-4e35-9bb7-4e5f9c72c254",
+            "Value": {
+                "id": "cf87020f-8501-40ea-948a-8a8871daed5f",
+                "resourcePath": "fonts\\fnt_stat\\fnt_stat.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "301681f8-fb3e-468e-acfb-60618e6953a5",
             "Value": {
                 "id": "db48ab0b-0be5-41d7-af7b-5948c331c0ea",
@@ -228,6 +236,14 @@
                 "id": "7f9855d3-caf4-478c-b00e-db0890998edd",
                 "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a546f39-48b7-48f2-bd33-4aba023a1cad",
+            "Value": {
+                "id": "137132fb-0e1f-49d8-8dae-4bdf8b689b82",
+                "resourcePath": "fonts\\fnt_keys2\\fnt_keys2.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -476,6 +492,14 @@
                 "id": "5714229b-c1fb-4a63-93ac-3e25ee129bc5",
                 "resourcePath": "objects\\obj_any_key_to_cont\\obj_any_key_to_cont.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7c1c8ece-4b40-4c51-8d73-b200806126a4",
+            "Value": {
+                "id": "611c5e51-6d4f-452d-a7ff-3d9718b6ba9a",
+                "resourcePath": "fonts\\fnt_timer\\fnt_timer.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -844,6 +868,14 @@
                 "id": "ac5f3a3d-38b8-414f-b87e-9407c99aa12d",
                 "resourcePath": "sprites\\spr_credits_button\\spr_credits_button.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "daeed3c0-591a-4291-9757-b00704093687",
+            "Value": {
+                "id": "06967b5d-107c-416a-bdb6-39e7e19a443e",
+                "resourcePath": "fonts\\fnt_keys3\\fnt_keys3.yy",
+                "resourceType": "GMFont"
             }
         },
         {
