@@ -24,7 +24,7 @@ if(c > text_lng){
 
 else{
 	
-
+if(score >0 && health > 0){
 text_char = string_char_at(text[aSizecheck],count);
 if(keyboard_check(vk_shift)){
 shift_button = true;
@@ -107,5 +107,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 
 	
 keyboard_string = "";
+
+}
 
 }
