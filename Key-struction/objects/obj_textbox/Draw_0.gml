@@ -3,17 +3,18 @@
 // draw textbox
 draw_set_color(c_white);
 draw_sprite(spr_box,0,x,y);
-
+redrawcount = 1;
 
 
 
 //Load file from c:\users\brad\appdata\local\key_struction
 
-
+if(debugtrue == 0){ 
 
 //show text
-
-
+//if(redraw == true){
+if(redraw == true || redrawcount ==1){
+redrawcount++;
 draw_set_font(fnt_dictfont);
 draw_text_ext(x,y, text[aSizecheck],stringheight,boxWidth);
 
@@ -33,7 +34,7 @@ if(aSizecheck < arraylen-1){
 
 var s_width=0;
 
-if(redraw = true){
+if(redraw == true){
 	if(correct){
 		while(s_count ==0){	
 		    sentence = sentence+text_char;
@@ -72,6 +73,7 @@ if(redraw = true){
 	
 	}
 }
-
+}
+}
 
 

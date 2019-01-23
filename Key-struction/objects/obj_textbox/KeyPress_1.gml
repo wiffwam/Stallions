@@ -5,6 +5,8 @@
 //if(keyboard_check(vk_anykey) ){
 
 if(global.moving == false){
+redraw=false;	
+correct=false;
 	
 if(c > text_lng){
   if(aSizecheck < arraylen-1)
@@ -23,27 +25,46 @@ if(c > text_lng){
 }
 
 else{
-	
+
 if(score >0 && health > 0){
 text_char = string_char_at(text[aSizecheck],count);
-if(keyboard_check(vk_shift)){
-shift_button = true;
 
-}
-else shift_button = false;
+
+debugtrue = keyboard_check(vk_shift);
+debugtrue = keyboard_check_released(vk_shift);
+debugtrue2 = keyboard_check_pressed(vk_shift)
+
+//if(debugtrue==true && debugtrue2==true){
+//if(keyboard_check_pressed(vk_shift)){
+//if(keyboard_check(vk_shift)){
+//shift_button = true;
+
+//}
+//else shift_button = false;
+
 
 
 	
-	
-if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){	
+//if(debugtrue==true && debugtrue2==true){
+//debugpress = keyboard_check_pressed(vk_shift);
+if(!keyboard_check_pressed(vk_shift)&&debugtrue==0){
+//if (!keyboard_check(vk_shift) && !keyboard_check_pressed(vk_shift)){
+	if(debugtrue==false){
+//if(keyboard_check_pressed(vk_shift)){
+//if(keyboard_check(vk_shift)){
+    shift_button = true;
+
+     }
+    else shift_button = false;
 	if(shift_button == true)
 //	if(keyboard_check(vk_shift) && keyboard_check(ord("T")) ) 
 	{
 		s_count = 0;
 		typetext2 = string(keyboard_string);
-	    redraw = true;
+	    
 		
 		if(text_char == typetext2){
+			redraw = true;
 	//		draw_set_font(c_green);
 	//		draw_text_ext(x,y, text_char,stringheight,boxWidth);
 			correct = true;
@@ -54,6 +75,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 			
 		}
 		else{
+			redraw = true;
 		    correct = false;
 			global.incorrectCount++;
 			health -=1;
@@ -74,9 +96,10 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 	{
 		s_count = 0;
   		typetext2 = string(keyboard_string);
-		redraw = true;
+		
 		
 		if(text_char == typetext2){
+			redraw = true;
 	//		draw_set_font(c_green);
 	//		draw_text_ext(x,y, text_char,stringheight,boxWidth);
 			correct = true;
@@ -88,6 +111,7 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 			
 		}
 		else{
+			redraw = true;
 		    correct = false;
 			health -=1;
 			global.bullet=false
@@ -105,9 +129,10 @@ if (!keyboard_check(vk_shift) || !keyboard_check_pressed(vk_shift)){
 
 }
 
-	
+
 keyboard_string = "";
 
 }
-
 }
+
+
