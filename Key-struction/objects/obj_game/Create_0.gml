@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-score = 100;
+score = 2+(global.level*2);
 audio_stop_all();
 audio_play_sound(mus_game,0,true);
 
@@ -16,6 +16,7 @@ global.incorrectCount = 0;
 global.totalkeyspressed = 0;
 global.totalcorrectCount = 0;
 global.correctCount = 0;
+
 
 
 

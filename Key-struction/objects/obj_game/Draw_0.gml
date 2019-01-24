@@ -3,10 +3,13 @@
 draw_set_font(fnt_keys2);
 draw_set_color(c_black);
 draw_text(20,40,"HiTs To DeStRoY: ");
+draw_text(900,40,"LeVel: "); 
 
 draw_set_font(fnt_keys3);
 draw_set_color(c_maroon);
 draw_text(230,37.5,+string(score));
+draw_text(980,37.5,+ string(global.level));
+
 //draw_text(20,100,"c: "+string(state));
 //draw_text(20,120,"c: "+string(room));
 //draw_text(20,120,"c: "+string(alpha));

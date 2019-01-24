@@ -21,6 +21,7 @@ switch(state)
 			//TRANSIT TO LEVEL COMPLETE SCREEN WHEN FADE OUT COMPLETED
 			if (score <= 0){
 				room_goto(rm_level_complete);
+				global.level++;
 			}
 			
 		}
