@@ -43,4 +43,5 @@ aSizecheck = 0;
 arraylen = array_length_1d(text);
 //redrawcount = 1;
 debugtrue=0;
+global.valid_key = false;
 

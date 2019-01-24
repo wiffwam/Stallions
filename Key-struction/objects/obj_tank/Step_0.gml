@@ -18,12 +18,15 @@ if(distance_to_point(600,600) <5){
 }
 
 if(score >0 && health > 0){
+
+if(global.valid_key ==1){
 if(global.bullet == false && keyboard_check_pressed(vk_anykey)){
 
 	var inst = instance_create_layer(x,y,"Instances_3",obj_bullet);
 	audio_play_sound(sfx_tankshooting,1,false);
 	inst.direction = 155 ;
 	count = 1;
+}
 
 }
 }

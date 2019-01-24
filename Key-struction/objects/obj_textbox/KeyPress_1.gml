@@ -30,7 +30,52 @@ if(score >0 && health > 0){
 text_char = string_char_at(text[aSizecheck],count);
 
 
-debugtrue = keyboard_check(vk_shift);
+
+key_pressed = string(keyboard_string);
+global.valid_key = scr_valid_keys();
+//x = chr(typetext2);
+
+ 
+if(global.valid_key ==1){
+
+s_count = 0;
+	//	typetext2 = string(keyboard_string);
+	    
+		
+		if(text_char == key_pressed){
+			redraw = true;
+	//		draw_set_font(c_green);
+	//		draw_text_ext(x,y, text_char,stringheight,boxWidth);
+			correct = true;
+			global.correctCount++;
+			global.bullet=true;
+			score -=1;
+			global.totalkeyspressed++;
+			global.totalcorrectCount++;
+			
+		}
+		else{
+			redraw = true;
+		    correct = false;
+			global.incorrectCount++;
+			global.bullet=false
+			health -=1;
+			global.totalkeyspressed++;
+			
+			
+		}
+	//	show_debug_message(global.incorrectCount);
+		count++;
+	    c++;
+		type_sentence = type_sentence+text_char;
+	    
+
+}
+keyboard_string = "";
+}
+}
+}
+/*
 debugtrue = keyboard_check_released(vk_shift);
 debugtrue2 = keyboard_check_pressed(vk_shift)
 
@@ -47,9 +92,11 @@ debugtrue2 = keyboard_check_pressed(vk_shift)
 	
 //if(debugtrue==true && debugtrue2==true){
 //debugpress = keyboard_check_pressed(vk_shift);
-if(!keyboard_check_pressed(vk_shift)&&debugtrue==0){
+//if(!debugtrue2&&debugtrue==0){
+if(debugtrue==0){
 //if (!keyboard_check(vk_shift) && !keyboard_check_pressed(vk_shift)){
-	if(debugtrue==false){
+	if(debugtrue==false&&debugtrue2==true){
+		
 //if(keyboard_check_pressed(vk_shift)){
 //if(keyboard_check(vk_shift)){
     shift_button = true;
@@ -78,6 +125,7 @@ if(!keyboard_check_pressed(vk_shift)&&debugtrue==0){
 			redraw = true;
 		    correct = false;
 			global.incorrectCount++;
+		//	global.bullet=false
 			health -=1;
 			global.totalkeyspressed++;
 			
@@ -135,4 +183,4 @@ keyboard_string = "";
 }
 }
 
-
+*/
