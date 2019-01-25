@@ -8,6 +8,15 @@ if(global.moving == false){
 redraw=false;	
 correct=false;
 	
+
+key_pressed = string(keyboard_string);
+if(string_length(key_pressed)>1)key_pressed = "a"
+global.valid_key = scr_valid_keys();
+//x = chr(typetext2);
+
+ 
+if(global.valid_key ==1){
+	
 if(c > text_lng){
   if(aSizecheck < arraylen-1)
   {
@@ -18,6 +27,7 @@ if(c > text_lng){
 	 text_lng = string_length(text[aSizecheck]);
 	 text_char = "";
 	 count = 1;
+	 keyboard_string = "";
 
 	 
   }
@@ -27,16 +37,17 @@ if(c > text_lng){
 else{
 
 if(score >0 && health > 0){
-text_char = string_char_at(text[aSizecheck],count);
 
 
 
-key_pressed = string(keyboard_string);
-global.valid_key = scr_valid_keys();
+
+//key_pressed = string(keyboard_string);
+//global.valid_key = scr_valid_keys();
 //x = chr(typetext2);
 
  
-if(global.valid_key ==1){
+//if(global.valid_key ==1){
+text_char = string_char_at(text[aSizecheck],count);
 
 s_count = 0;
 	//	typetext2 = string(keyboard_string);

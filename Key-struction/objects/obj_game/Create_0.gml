@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-score = 2+(global.level*2);
+score = 100+(global.level*2);
 audio_stop_all();
 audio_play_sound(mus_game,0,true);
 
@@ -10,7 +10,7 @@ alpha = 1;
 //DECLARE GLOBAL VARIABLES
 
 global.charCorrectGoal = 3;
-global.time = 60;
+global.time = 6060;
 global.shouldGotoGameover = false;
 global.incorrectCount = 0;
 global.totalkeyspressed = 0;
