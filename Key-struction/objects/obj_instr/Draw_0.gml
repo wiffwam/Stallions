@@ -1,0 +1,1 @@
+draw_sprite(spr_keyboard,0,x,y)
