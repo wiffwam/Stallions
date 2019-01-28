@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "06ffc68e-27f3-4631-8173-6cf72b2f909a",
+            "Value": {
+                "id": "25358405-2640-43f2-ba1b-d1171874717b",
+                "resourcePath": "sounds\\sfx_roar\\sfx_roar.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0d905032-22f4-4d83-ad1a-051c9c2e7231",
             "Value": {
                 "id": "26ed0ee9-816e-4678-849e-e75d52d5889d",
