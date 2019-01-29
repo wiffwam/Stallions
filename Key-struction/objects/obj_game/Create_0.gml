@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-score = 10+(global.level*2);
+if(global.level ==1)
+score = 10;
+else
+score = 10+(global.level*10);
 audio_stop_all();
 audio_play_sound(mus_game,0,true);
 
