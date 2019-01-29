@@ -38,3 +38,7 @@ arraylen = array_length_1d(text);
 debugtrue=0;
 global.valid_key = false;
 
+global.prev_colour = c_white;
+global.prev_charloc = 0;
+global.prev_textchar = "";
+
