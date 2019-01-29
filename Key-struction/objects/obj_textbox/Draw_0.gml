@@ -51,6 +51,9 @@ if(redraw == true){
 		{
 			draw_set_color(c_lime);
 			draw_text_ext(x,y,text_char,stringheight,boxWidth);
+			global.prev_colour = c_lime;
+			global.prev_charloc = x;
+			global.prev_textchar = text_char;
 			
 		}
 		else{
@@ -75,6 +78,9 @@ if(redraw == true){
 		{
 			draw_set_color(c_red);
 			draw_text_ext(x,y,text_char,stringheight,boxWidth);
+				global.prev_colour = c_red;
+			global.prev_charloc = x;
+			global.prev_textchar = text_char;
 			
 		}
 		else{
