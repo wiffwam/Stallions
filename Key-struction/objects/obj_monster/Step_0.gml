@@ -24,6 +24,8 @@ if(distance_to_point(400,610) <5){
 if( global.correctCount >= global.charCorrectGoal && health !=0){
 	
 	scr_attack();
+	global.showsmoke = true;
+	
 	
 	if (image_index > 8){
 		attacked = true;

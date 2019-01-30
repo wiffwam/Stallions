@@ -11,3 +11,4 @@ alarm[1]=120;
 attacked = false;
 attacking = false;
 
+
