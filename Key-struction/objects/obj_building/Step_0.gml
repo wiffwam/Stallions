@@ -14,7 +14,7 @@ if(score <=0){
 	//if(!audio_is_playing(sfx_factorydmg)){
 	
 	if(stage != 3){
-	audio_play_sound(sfx_factorydmg,1,false);
+	audio_play_sound(sfx_factorydmg,0,false);
 	getAttacked = true;
     stage =3;
 	}
@@ -23,7 +23,7 @@ if(score <=0){
 }
 else if (ori_score *.33 > score){
 	if(stage != 2){
-	audio_play_sound(sfx_factorydmg,1,false);
+	audio_play_sound(sfx_factorydmg,0,false);
 	getAttacked = true;
 	stage = 2;
 	}
@@ -32,7 +32,7 @@ else if (ori_score *.33 > score){
 else if (ori_score *.66 >score){
 	
 	if(stage != 1){
-	audio_play_sound(sfx_factorydmg,1,false);
+	audio_play_sound(sfx_factorydmg,0,false);
 	getAttacked = true;
 	stage =1;
 	}

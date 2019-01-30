@@ -28,7 +28,6 @@ if( global.correctCount >= global.charCorrectGoal && health !=0){
 	if (image_index > 5){
 		
 		instance_create(450,400, obj_smoke);
-		audio_play_sound(sfx_factorydmg,1,false);
 	}
 	if (image_index > 8){
 		attacked = true;
