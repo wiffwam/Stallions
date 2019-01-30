@@ -17,4 +17,4 @@ draw_text(980,37.5,+ string(global.level));
 
 var pc;
 pc = (health / 10) * 100;
-draw_healthbar(120, 270, 270, 280, pc, c_black, c_red, c_lime, 0, true, true);
+//draw_healthbar(120, 270, 270, 280, pc, c_black, c_red, c_lime, 0, true, true);
