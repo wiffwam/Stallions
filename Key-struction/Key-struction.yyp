@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "5b4b32d2-92cc-445e-a4ac-4f05844f70f0",
+            "Value": {
+                "id": "fe175f35-a5f1-4f78-b8fb-51215bcbc0a5",
+                "resourcePath": "sprites\\spr_smoke\\spr_smoke.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62385bb9-f696-4ed9-a3f8-a2ffe93b3343",
             "Value": {
                 "id": "6c7b6384-17e7-4cc2-8a83-10e54201be17",
