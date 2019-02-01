@@ -19,11 +19,11 @@ if(debugtrue == 0){
 
 //global.redrawcount++;
 draw_set_font(fnt_dictfont);
-draw_text_ext(x,y, text[aSizecheck],stringheight,boxWidth);
+draw_text_ext(x-150,y-30, text[aSizecheck],stringheight,boxWidth);
 
 if(aSizecheck < arraylen-1){
 	draw_set_color(c_teal);
-	draw_text_ext(x,y+20, text[aSizecheck+1],stringheight,boxWidth);
+	draw_text_ext(x-150,y+20, text[aSizecheck+1],stringheight,boxWidth);
 }
 
 
@@ -34,7 +34,7 @@ if(aSizecheck < arraylen-1){
 //else{
 
     draw_set_color(c_gray);
-	draw_text_ext(x,y,type_sentence,stringheight,boxWidth);
+	draw_text_ext(x-150,y-30,type_sentence,stringheight,boxWidth);
 //}
 //}
 
@@ -50,17 +50,17 @@ if(redraw == true){
 		if(s_width == 0 || s_width == 10)
 		{
 			draw_set_color(c_lime);
-			draw_text_ext(x,y,text_char,stringheight,boxWidth);
+			draw_text_ext(x-150,y-30,text_char,stringheight,boxWidth);
 			global.prev_colour = c_lime;
-			global.prev_charloc = x;
+			global.prev_charloc = x-150;
 			global.prev_textchar = text_char;
 			
 		}
 		else{
 			draw_set_color(c_lime);
-			draw_text_ext(x+string_width(sentence)-10,y,text_char,stringheight,boxWidth);
+			draw_text_ext(x-150+string_width(sentence)-22,y-30,text_char,stringheight,boxWidth);
 			global.prev_colour = c_lime;
-			global.prev_charloc = x+string_width(sentence)-10;
+			global.prev_charloc = x-150+string_width(sentence)-22;
 			global.prev_textchar = text_char;
 		}
 //	draw_text_ext(x,y, text_char,stringheight,boxWidth);
@@ -77,17 +77,17 @@ if(redraw == true){
 		if(s_width == 0 || s_width == 10)
 		{
 			draw_set_color(c_red);
-			draw_text_ext(x,y,text_char,stringheight,boxWidth);
+			draw_text_ext(x-150,y-30,text_char,stringheight,boxWidth);
 				global.prev_colour = c_red;
-			global.prev_charloc = x;
+			global.prev_charloc = x-150;
 			global.prev_textchar = text_char;
 			
 		}
 		else{
 			draw_set_color(c_red);
-			draw_text_ext(x+string_width(sentence)-10,y,text_char,stringheight,boxWidth);
+			draw_text_ext(x-150+string_width(sentence)-22,y-30,text_char,stringheight,boxWidth);
 			global.prev_colour = c_red;
-			global.prev_charloc = x+string_width(sentence)-10;
+			global.prev_charloc = x-150+string_width(sentence)-22;
 			global.prev_textchar = text_char;
 		}
 	
@@ -96,7 +96,7 @@ if(redraw == true){
 }
 if(global.valid_key ==0){
 			draw_set_color(global.prev_colour);
-			draw_text_ext(global.prev_charloc,y,global.prev_textchar,stringheight,boxWidth);
+			draw_text_ext(global.prev_charloc,y-30,global.prev_textchar,stringheight,boxWidth);
 }
 
 
