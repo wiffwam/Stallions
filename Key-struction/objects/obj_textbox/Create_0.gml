@@ -42,3 +42,4 @@ global.prev_colour = c_white;
 global.prev_charloc = 0;
 global.prev_textchar = "";
 
+sentence2 = ""

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 // draw textbox
+
+
 draw_set_color(c_white);
 draw_sprite(spr_box,0,x,y);
 //redrawcount = 1;
@@ -12,6 +14,7 @@ draw_sprite(spr_box,0,x,y);
 
  
 if(debugtrue == 0){ 
+
 
 //show text
 //if(redraw == true){
@@ -34,7 +37,8 @@ if(aSizecheck < arraylen-1){
 //else{
 
     draw_set_color(c_gray);
-	draw_text_ext(x-150,y-30,type_sentence,stringheight,boxWidth);
+	draw_text_ext(x-150,y-30,sentence,stringheight,boxWidth);
+//	draw_text_ext(x-150,y-30,type_sentence,stringheight,boxWidth);
 //}
 //}
 
@@ -43,7 +47,8 @@ var s_width=0;
 if(redraw == true){
 	if(correct){
 		while(s_count ==0){	
-		    sentence = sentence+text_char;
+			sentence = string_insert(text_char,sentence,string_length(sentence)+1)
+		  //  sentence = sentence+text_char;
 			s_count = 1;
 		}
 		s_width = string_width(sentence);
@@ -70,7 +75,11 @@ if(redraw == true){
 	
 	else{
 		while(s_count ==0){	
-		    sentence = sentence+text_char;
+			//bug within GameMaker as explained in https://www.reddit.com/r/gamemaker/comments/5efxce/help_string_concatenation_quietly_failing_at/
+			sentence = string_insert(text_char,sentence,string_length(sentence)+1)
+		//	var sentence2 = type_sentence;
+		//	sentence2 = sentence2+text_char;
+		//    sentence = sentence+text_char;
 			s_count = 1;
 		}
 		s_width = string_width(sentence);
@@ -94,10 +103,12 @@ if(redraw == true){
 	}
 }
 }
+
 if(global.valid_key ==0){
 			draw_set_color(global.prev_colour);
 			draw_text_ext(global.prev_charloc,y-30,global.prev_textchar,stringheight,boxWidth);
 }
+
 
 
 

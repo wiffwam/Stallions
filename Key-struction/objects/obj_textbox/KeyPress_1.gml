@@ -4,6 +4,8 @@
 // You can write your code in this editor
 //if(keyboard_check(vk_anykey) ){
 
+
+
 if(global.moving == false){
 redraw=false;	
 correct=false;
@@ -26,6 +28,7 @@ if(c > text_lng){
 	 sentence="";
 	 text_lng = string_length(text[aSizecheck]);
 	 text_char = "";
+	 sentence2 = "";
 	 count = 1;
 	 keyboard_string = "";
 

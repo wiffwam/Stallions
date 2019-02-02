@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-score = 2;
+score = 200;
 if(global.level ==1)
 score = score;
 else
@@ -14,7 +14,7 @@ alpha = 1;
 //DECLARE GLOBAL VARIABLES
 
 global.charCorrectGoal = 7;
-global.time = 60;
+global.time = 600;
 global.shouldGotoGameover = false;
 global.incorrectCount = 0;
 global.totalkeyspressed = 0;
