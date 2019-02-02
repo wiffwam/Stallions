@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-score = 200;
+score = 2;
 if(global.level ==1)
 score = score;
 else
